@@ -10,8 +10,8 @@ from bokeh.plotting import show
 from bokeh.layouts import column
 
 
-bokeh.charts.defaults.width=1200
-bokeh.charts.defaults.legend=False
+bokeh.charts.defaults.width = 1200
+bokeh.charts.defaults.legend = False
 
 parser = argparse.ArgumentParser(description="Process PG\&E Data")
 parser.add_argument('zipfile')
